@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ping-log"
+version = "0.1.0"
+description = ""
+authors = ["false <false@wizard-limit.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bokeh = "=>2.2.3"
+pandas = "=>1.2.4"
+ping3 = "=>4.0.3"
+types-python-dateutil = "^2.8.17"
+
+[tool.poetry.dev-dependencies]
+black = "=>20.8b1"
+flake8 = "=>3.8.4"
+flake8-docstrings = "=>1.5.0"
+mypy = "=>0.800"
+ipython = "=>7.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120

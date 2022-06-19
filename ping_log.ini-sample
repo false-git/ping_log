@@ -1,0 +1,12 @@
+[ping]
+#host = <host to ping>
+#interval = 10
+[zabbix]
+# Zabbix server
+#server = <zabbix server>
+# Zabbix port
+#port = 10051
+# Zabbix host
+#host = <trap host>
+# Zabbix key
+#key = ping
