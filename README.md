@@ -13,6 +13,7 @@
     * host: zabbix に識別してもらうホスト名
     * key: zabbix trapperのkey
 * `poetry install` で.venvを作ります。
+* `sqlite3 ping.db < ping.sql` でデータベースを作ります。
 * `poetry run python ping_log.py` でpingを無限実行します。
 * `poetry run python ping_graph.py` で graph/ping.html にグラフを描きます。
   * 手抜きなので、全データを bokeh で出力します。
