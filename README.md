@@ -15,6 +15,6 @@
 * `poetry install` で.venvを作ります。
 * `sqlite3 ping.db < ping.sql` でデータベースを作ります。
 * `poetry run python ping_log.py` でpingを無限実行します。
-* `poetry run python ping_graph.py` で graph/ping.html にグラフを描きます。
-  * 手抜きなので、全データを bokeh で出力します。
-  * データ量が多くなるとまともに動かないと思います。
+  * ping.db にデータを記録します。
+  * zabbix_sender でzabbix server にデータを送ります。(zabbix_serverの設定があるとき)
+  * graph/graph.html に直近二日分のグラフを作成します。
