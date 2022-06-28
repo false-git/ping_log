@@ -1,7 +1,7 @@
 # ping log
 
 * 一定間隔で指定ホストにpingを打ち、response timeを記録します。
-  * zabbix.db に sqlite3 でデータを記録します。
+  * ping.db に sqlite3 でデータを記録します。
   * zabbixの設定があれば、zabbixにデータを送ります。
 * ping_log.ini に設定を書きます。
   * ping セクション
